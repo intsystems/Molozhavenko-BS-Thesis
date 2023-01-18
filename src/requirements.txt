@@ -1,3 +1,17 @@
-numpy==1.21.5
-scipy==1.4.1
-scikit-learn==1.0.2
+albumentations==1.2.1
+click==7.1.2
+clikit==0.6.2
+h5py==3.1.0
+jax==0.3.25
+jaxlib @ https://storage.googleapis.com/jax-releases/cuda11/jaxlib-0.3.25+cuda11.cudnn805-cp38-cp38-manylinux2014_x86_64.whl
+matplotlib==3.2.2
+matplotlib-venn==0.11.7
+numpy==1.21.6
+pytest==3.6.4
+tabulate==0.8.10
+torch @ https://download.pytorch.org/whl/cu116/torch-1.13.1%2Bcu116-cp38-cp38-linux_x86_64.whl
+torchaudio @ https://download.pytorch.org/whl/cu116/torchaudio-0.13.1%2Bcu116-cp38-cp38-linux_x86_64.whl
+torchsummary==1.5.1
+torchtext==0.14.1
+torchvision @ https://download.pytorch.org/whl/cu116/torchvision-0.14.1%2Bcu116-cp38-cp38-linux_x86_64.whl
+tqdm==4.64.1
