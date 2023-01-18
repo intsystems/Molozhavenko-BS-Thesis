@@ -37,4 +37,4 @@
 
 Датасет
 ================
-Набор данных для всех экспериментов был взят из `ICB https://imagecompression.info/test_images/`_ .
+Набор данных для всех экспериментов был взят из `ICB <https://imagecompression.info/test_images/>`_.
