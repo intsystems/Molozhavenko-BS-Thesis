@@ -53,6 +53,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="#id5">Датасет</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#id6">Результаты</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Get Started:</span></p>
 <ul>
@@ -119,15 +120,19 @@
 </section>
 <section id="id3">
 <h1>Описание<a class="headerlink" href="#id3" title="Permalink to this heading"></a></h1>
-<p>В данном проекте рассматривается возможность использования тензорных сетей для задач восстановления изображения по значениям в малом количестве пикселей (tensor completion), а также для сжатия изображений.</p>
+<p>В данном проекте рассматривается возможность использования тензорных сетей для задач восстановления изображения по значениям в малом количестве пикселей (tensor completion), а также для сжатия изображений. Более подробно с постановкой задачи, а так же разбором теории и литературы можно ознакомиться в файле <code class="code docutils literal notranslate"><span class="pre">paper/BS_First_Part_Proposal/BS_First_Part_Proposal.pdf</span></code>.</p>
 <section id="id4">
 <h2>Описание файлов<a class="headerlink" href="#id4" title="Permalink to this heading"></a></h2>
-<p>В файле <code class="code docutils literal notranslate"><span class="pre">pgm.py</span></code> описаны основные функции по созданию из изображения тензора и обратной этому операции. Журнал <code class="code docutils literal notranslate"><span class="pre">Tensor_Experiment_1.ipynb</span></code> демонстрирует преобразование картинки из датасета в тензор и восстановления изображения из тензора.</p>
+<p>В файле <code class="code docutils literal notranslate"><span class="pre">pgm.py</span></code> описаны основные функции по созданию из изображения тензора и обратной этому операции. Журнал <code class="code docutils literal notranslate"><span class="pre">Tensor_Experiment_1.ipynb</span></code> демонстрирует преобразование картинки из датасета в тензор и восстановления изображения из тензора. В журнале <code class="code docutils literal notranslate"><span class="pre">svd_compression.ipynb</span></code> приведены простые эксперименты по сжатию картинки с помощью сингулярного разложения (результаты приведены на графике и взяты за baseline). Журнал <code class="code docutils literal notranslate"><span class="pre">Tensor_greedy_bra.ipynb</span></code> - основная часть работы: в ней производится построение тензорной сети и последующее её обучение градиентыми методами, результаты работы журнала демонстративно выражаются картинками улучшения качества.</p>
 </section>
 </section>
 <section id="id5">
 <h1>Датасет<a class="headerlink" href="#id5" title="Permalink to this heading"></a></h1>
 <p>Набор данных для всех экспериментов был взят из <a class="reference external" href="https://imagecompression.info/test_images/">ICB</a>.</p>
+</section>
+<section id="id6">
+<h1>Результаты<a class="headerlink" href="#id6" title="Permalink to this heading"></a></h1>
+<p>С результатами данной части работы можно ознакомиться в папке <code class="code docutils literal notranslate"><span class="pre">slides/BS_First_Part_Report.*</span></code></p>
 </section>
 
 
