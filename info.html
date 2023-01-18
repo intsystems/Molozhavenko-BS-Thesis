@@ -48,8 +48,11 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">center</span></code></a></li>
 <li class="toctree-l1"><a class="reference internal" href="#id1">Описание</a></li>
 <li class="toctree-l1"><a class="reference internal" href="#id2">Первая часть работы: Использование тензорных сетей для сжатия изображений</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#id3">Описание</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#id4">Датасет</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#id3">Описание</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id4">Описание файлов</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#id5">Датасет</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Get Started:</span></p>
 <ul>
@@ -117,9 +120,13 @@
 <section id="id3">
 <h1>Описание<a class="headerlink" href="#id3" title="Permalink to this heading"></a></h1>
 <p>В данном проекте рассматривается возможность использования тензорных сетей для задач восстановления изображения по значениям в малом количестве пикселей (tensor completion), а также для сжатия изображений.</p>
-</section>
 <section id="id4">
-<h1>Датасет<a class="headerlink" href="#id4" title="Permalink to this heading"></a></h1>
+<h2>Описание файлов<a class="headerlink" href="#id4" title="Permalink to this heading"></a></h2>
+<p>В файле <code class="code docutils literal notranslate"><span class="pre">pgm.py</span></code> описаны основные функции по созданию из изображения тензора и обратной этому операции. Журнал <code class="code docutils literal notranslate"><span class="pre">Tensor_Experiment_1.ipynb</span></code> демонстрирует преобразование картинки из датасета в тензор и восстановления изображения из тензора.</p>
+</section>
+</section>
+<section id="id5">
+<h1>Датасет<a class="headerlink" href="#id5" title="Permalink to this heading"></a></h1>
 <p>Набор данных для всех экспериментов был взят из <a class="reference external" href="https://imagecompression.info/test_images/">ICB</a>.</p>
 </section>
 
