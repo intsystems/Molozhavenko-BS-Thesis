@@ -37,11 +37,4 @@
 
 Датасет
 ================
-Набор данных для всех экспериментов был взят из [ICB](https://imagecompression.info/test_images/):
-
-@online{icb,
-  author = {Rawzor},
-  title  = {Image Compression Benchmark},
-  url    = {http://imagecompression.info/}
-}
-
+Набор данных для всех экспериментов был взят из `ICB https://imagecompression.info/test_images/`_ .
