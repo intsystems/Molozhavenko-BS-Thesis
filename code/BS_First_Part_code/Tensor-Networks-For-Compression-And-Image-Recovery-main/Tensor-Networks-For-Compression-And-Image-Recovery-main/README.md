@@ -1,13 +1,21 @@
-# Tensor-Networks-For-Compression-And-Image-Recovery
+Первая часть работы: Использование тензорных сетей для сжатия изображений 
+================
 
-## About
-This project considers the possibility of using tensor networks for the tasks of restoring an image from values in a small number of pixels (tensor completion), as well as for image compression.
+Описание
+================
 
-## Dataset
-The dataset for all of the experiments was taken from [ICB](https://imagecompression.info/test_images/):
+В данном проекте рассматривается возможность использования тензорных сетей для задач восстановления изображения по значениям в малом количестве пикселей (tensor completion), а также для сжатия изображений. Более подробно с постановкой задачи, а так же разбором теории и литературы можно ознакомиться в файле :code:`paper/BS_First_Part_Proposal/BS_First_Part_Proposal.pdf`.
 
-@online{icb,
-  author = {Rawzor},
-  title  = {Image Compression Benchmark},
-  url    = {http://imagecompression.info/}
-}
+Описание файлов
+---------------
+
+В файле :code:`pgm.py` описаны основные функции по созданию из изображения тензора и обратной этому операции. Журнал :code:`Tensor_Experiment_1.ipynb` демонстрирует преобразование картинки из датасета в тензор и восстановления изображения из тензора. В журнале :code:`svd_compression.ipynb` приведены простые эксперименты по сжатию картинки с помощью сингулярного разложения (результаты приведены на графике и взяты за baseline). Журнал :code:`Tensor_greedy_bra.ipynb` - основная часть работы: в ней производится построение тензорной сети и последующее её обучение градиентыми методами, результаты работы журнала демонстративно выражаются картинками улучшения качества.
+
+Датасет
+================
+Набор данных для всех экспериментов был взят из `ICB <https://imagecompression.info/test_images/>`_.
+
+Результаты
+================
+
+С результатами данной части работы можно ознакомиться в папке :code:`slides/BS_First_Part_Report.*` 
