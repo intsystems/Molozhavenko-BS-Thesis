@@ -15,11 +15,10 @@ Install
 -------
 .. code-block:: bash
 
-	git clone https://github.com/Intelligent-Systems-Phystech/ProjectTemplate.git /tmp/ProjectTemplate
-	python3 -m pip install /tmp/ProjectTemplate/src/
+	git clone https://github.com/intsystems/Molozhavenko-BS-Thesis.git
 
 Uninstall
 ---------
 .. code-block:: bash
 
-  python3 -m pip uninstall mylib
+  rm -rf Molozhavenko-BS-Thesis
