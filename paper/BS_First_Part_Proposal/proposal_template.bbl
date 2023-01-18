@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{kaczmarz1951theorie}
+Stefan Kaczmarz, Hugo Steinhaus, and Hugo Steinhaus.
+\newblock {\em Theorie der orthogonalreihen}.
+\newblock Chelsea New York, 1951.
+
+\bibitem{strohmer2009randomized}
+Thomas Strohmer and Roman Vershynin.
+\newblock A randomized kaczmarz algorithm with exponential convergence.
+\newblock {\em Journal of Fourier Analysis and Applications}, 15(2):262, 2009.
+
+\bibitem{gower2015randomized}
+Robert~M Gower and Peter Richt{\'a}rik.
+\newblock Randomized iterative methods for linear systems.
+\newblock {\em SIAM Journal on Matrix Analysis and Applications},
+  36(4):1660--1690, 2015.
+
+\bibitem{dai2014randomized}
+Liang Dai, Mojtaba Soltanalian, and Kristiaan Pelckmans.
+\newblock On the randomized kaczmarz algorithm.
+\newblock {\em IEEE Signal Process. Lett.}, 21(3):330--333, 2014.
+
+\end{thebibliography}
