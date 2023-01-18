@@ -2,8 +2,6 @@ import io
 import re
 from setuptools import setup, find_packages
 
-from mylib import __version__
-
 def read(file_path):
     with io.open(file_path, 'r', encoding='utf-8') as f:
         return f.read()
@@ -20,13 +18,13 @@ requirements = '\n'.join(
 setup(
     # metadata
     name='mylib',
-    version=__version__,
+    version="v0.1",
     license='MIT',
-    author='Andrey Grabovoy',
-    author_email="grabovoy.av@phystech.edu",
+    author='Molozhavenko Alexander',
+    author_email="molozhavenko.aa@phystech.edu",
     description='mylib, python package',
     long_description=readme,
-    url='https://github.com/Intelligent-Systems-Phystech/ProjectTemplate',
+    url='https://github.com/intsystems/Molozhavenko-BS-Thesis',
 
     # options
     packages=find_packages(),
